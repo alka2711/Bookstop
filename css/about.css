@@ -1,0 +1,22 @@
+#page-header.about-header{
+    background: url(../assets/banner/b1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+#about-head{
+    display: flex;
+    align-items: center;
+}
+#about-head div{
+    padding-left: 40px;
+}
+#about-app{
+    text-align:center;
+}
+
+

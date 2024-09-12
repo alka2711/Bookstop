@@ -1,0 +1,159 @@
+@import url(../css/style.css);
+@import url(../css/responsiveHome.css);
+
+#page-header.blog-header {
+    background: url(../assets/banner/b19.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+}
+
+#page-header.blog-header h2 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+#page-header.blog-header p {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+}
+
+#post-ad {
+    padding: 50px 150px;
+    background: #f4f4f4;
+}
+
+#post-ad h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#post-ad .form-group {
+    margin-bottom: 15px;
+}
+
+#post-ad .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#post-ad .form-group input,
+#post-ad .form-group select,
+#post-ad .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#post-ad .form-group textarea {
+    resize: vertical;
+}
+
+#post-ad button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #088178;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#post-ad button:hover {
+    background-color: #065f60;
+}
+
+#newsletter {
+    padding: 50px 150px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#newsletter .newstext {
+    margin-bottom: 20px;
+}
+
+#newsletter .newstext h4 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+#newsletter .newstext p {
+    font-size: 1rem;
+    margin: 10px 0 0;
+}
+
+#newsletter .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#newsletter .form input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#newsletter .form button {
+    padding: 10px 20px;
+    background-color: #088178;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#newsletter .form button:hover {
+    background-color: #065f60;
+}
+
+footer {
+    padding: 50px 150px;
+    background:#0d0d0d
+    color: #fff;
+}
+
+footer .col {
+    margin-bottom: 20px;
+}
+
+footer .col h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+footer .col a {
+    display: block;
+    color: #0a0a0a;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+footer .col a:hover {
+    color: #088178;
+}
+
+footer .follow .icon i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+footer .follow .icon i:hover {
+    color: #088178;
+}
+
